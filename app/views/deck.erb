@@ -1,7 +1,16 @@
+<h1>Start your vision quest</h1>
+
 <ul>
   <% @decks.each do |deck| %>
   <li>
-<%= deck.name%>
+
+<form method="post" action="/decks/<%=deck.id%>/rounds">
+  <!-- <input type="text" name="<%#deck.id%>" -->
+  <button type="submit"> <%= deck.name %> </button>
+
+</form>
+
   </li>
   <% end %>
 </ul>
+

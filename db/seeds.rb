@@ -71,19 +71,19 @@ content_for_decks = [
 Deck.create!(content_for_decks)
 
 # content_for_guesses = [
-# { :user_id => ,
+# { :round_id => ,
 #   :card_id => ,
 #   :guess => " "
 # },
-# { :user_id => ,
+# { :round_id => ,
 #   :card_id => ,
 #   :guess => " "
 # },
-# { :user_id => ,
+# { :round_id => ,
 #   :card_id => ,
 #   :guess => " "
 # },
-# { :user_id => ,
+# { :round_id => ,
 #   :card_id => ,
 #   :guess => " "
 # }]

@@ -1,0 +1,15 @@
+<!-- 1 display all cards
+2 find out a way only show some
+3 form with a anser and submit -->
+
+    <p> <%= @card.question %> </p>
+<form method="post">
+  <label for="answer">Answer:</label>
+  <input type="text" name="guess" />
+  <br>
+  <button type="submit">Submit your wrong answer</button>
+</form>
+
+
+
+

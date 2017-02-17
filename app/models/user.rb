@@ -1,7 +1,6 @@
 class User < ActiveRecord::Base
   include BCrypt
   has_many :rounds
-  has_many :guesses
 
   validates :full_name, :email, :password, { presence: true }
 
